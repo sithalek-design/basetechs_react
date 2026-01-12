@@ -4,7 +4,11 @@ export default function App(){
   return (
     <React.Fragment>
       <h1>Hello</h1>
-      <p>Thom</p>
+       <form>
+      <label>Enter your name:
+        <input type="text" />
+      </label>
+    </form>
     </React.Fragment>
   );
 }
